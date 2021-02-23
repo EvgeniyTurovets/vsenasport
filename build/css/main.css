@@ -996,3 +996,356 @@ body {
     padding-top: 40px; }
   .footer__logo {
     margin-bottom: 40px; } }
+
+.title h1 {
+  font-family: 'Micra Bold';
+  font-size: 36px;
+  color: #6a1d6f;
+  line-height: 1.4; }
+
+.title {
+  padding-top: 125px; }
+
+.title h1:after {
+  content: "";
+  display: block;
+  width: 99px;
+  height: 6px;
+  background-color: #6a1d6f;
+  margin-top: 32px; }
+
+.title2 h2 {
+  font-size: 36px;
+  font-family: 'Micra Normal';
+  color: #6a1d6f;
+  line-height: 1.4; }
+  .title2 h2 span {
+    font-size: 20px; }
+
+.title2 h2:after {
+  content: "";
+  display: block;
+  width: 99px;
+  height: 6px;
+  background-color: #6a1d6f;
+  margin-top: 32px; }
+
+@media (max-width: 1024px) {
+  .title h1 {
+    font-size: 24px; }
+  .title h1:after {
+    margin-top: 24px;
+    height: 3px; }
+  .title {
+    padding-top: 100px; }
+  .title2 h2 {
+    font-size: 24px; }
+    .title2 h2 span {
+      font-size: 24px; }
+  .title2 h2:after {
+    margin-top: 24px;
+    height: 3px; } }
+
+@media (max-width: 639px) {
+  .title h1 {
+    font-size: 16px; }
+  .title h1:after {
+    margin-top: 16px; }
+  .title {
+    padding-top: 50px; }
+  .title2 h2 {
+    font-size: 16px; }
+    .title2 h2 span {
+      font-size: 16px; }
+  .title2 h2:after {
+    margin-top: 16px; } }
+
+.onas1__wrap {
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 150px; }
+
+.onas1__left {
+  width: 50%;
+  font-weight: 600;
+  padding-right: 50px;
+  border-right: 1px solid #c5c5c5;
+  padding-top: 32px;
+  padding-bottom: 15px; }
+  .onas1__left p {
+    font-size: 19px;
+    line-height: 1.4; }
+
+.onas1__right {
+  width: 50%;
+  padding-left: 50px;
+  padding-top: 32px;
+  padding-bottom: 15px; }
+  .onas1__right p {
+    font-size: 19px;
+    line-height: 1.4;
+    margin-bottom: 35px; }
+    .onas1__right p a {
+      color: #6a1d6f;
+      text-decoration: underline;
+      transition: 0.3s all; }
+    .onas1__right p a:hover {
+      opacity: 0.8; }
+
+.onas-itogi ul li {
+  margin-bottom: 18px; }
+
+.onas-itogi ul a {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  font-size: 18px; }
+  .onas-itogi ul a img {
+    margin-left: 20px; }
+  .onas-itogi ul a .linkactive {
+    display: none; }
+
+.onas-itogi ul a:hover img {
+  display: none; }
+
+.onas-itogi ul a:hover .linkactive {
+  display: block; }
+
+.onas-itogi__title {
+  font-family: 'Micra Normal';
+  color: #6a1d6f;
+  font-size: 26px;
+  margin-bottom: 25px; }
+
+@media (max-width: 1024px) {
+  .onas1__wrap {
+    -ms-flex-direction: column;
+        flex-direction: column; }
+  .onas1__right {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 45px; }
+  .onas1__left {
+    width: 100%;
+    border-right: 0;
+    border-bottom: 1px solid #c5c5c5;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 45px; }
+  .onas1__wrap {
+    padding-bottom: 80px; } }
+
+@media (max-width: 639px) {
+  .onas1__left p {
+    font-size: 14px; }
+  .onas1__right p {
+    font-size: 14px; }
+  .onas1__left {
+    padding-bottom: 30px; }
+  .onas1__right {
+    padding-top: 30px; }
+  .onas-itogi__title {
+    font-size: 16px; }
+  .onas1__wrap {
+    padding-bottom: 40px; } }
+
+.comanda__wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 91px;
+  padding-bottom: 45px;
+  margin: 0 -30px; }
+
+.comanda__item {
+  text-align: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  width: calc(100% / 5 - 60px);
+  margin-bottom: 30px;
+  margin: 0 30px; }
+
+.comanda__img {
+  width: 157px;
+  height: 157px;
+  border-radius: 100%;
+  background-color: #3c74fe;
+  margin-bottom: 40px;
+  background-size: contain;
+  background-position: center; }
+
+.comanda__name {
+  font-size: 14px;
+  font-family: 'Micra Normal';
+  margin-bottom: 15px;
+  color: #6a1d6f; }
+
+.comanda__text {
+  font-size: 14px;
+  line-height: 1.4; }
+
+@media (max-width: 1499px) {
+  .comanda__item {
+    margin: 0 15px;
+    margin-bottom: 35px;
+    width: calc(100% / 5 - 30px); }
+  .comanda__wrap {
+    margin: 0 -15px; } }
+
+@media (max-width: 1200px) {
+  .comanda__wrap {
+    -ms-flex-pack: center;
+        justify-content: center; }
+  .comanda__img {
+    margin-bottom: 30px; }
+  .comanda__name {
+    font-size: 11px; }
+  .comanda__text {
+    font-size: 11px; }
+  .comanda__img {
+    width: 130px;
+    height: 130px; } }
+
+@media (max-width: 1024px) {
+  .comanda__item {
+    width: calc(100% / 3 - 30px); }
+  .comanda__wrap {
+    padding-top: 60px; } }
+
+@media (max-width: 640px) {
+  .comanda__item {
+    width: calc(100% / 2 - 30px); }
+  .comanda__wrap {
+    -ms-flex-pack: start;
+        justify-content: flex-start; } }
+
+@media (max-width: 399px) {
+  .comanda__item {
+    margin: 0 5px;
+    width: calc(100% / 2 - 10px);
+    margin-bottom: 30px; }
+  .comanda__wrap {
+    margin: 0 -5px; }
+  .comanda__name {
+    font-size: 9px;
+    margin-bottom: 10px; }
+  .comanda__text {
+    font-size: 9px; }
+  .comanda__img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px; } }
+
+.onas-form {
+  padding-top: 117px;
+  padding-bottom: 117px;
+  background-color: #ecf2f5; }
+  .onas-form form {
+    max-width: 661px;
+    padding-top: 83px; }
+  .onas-form .input input {
+    background-color: transparent;
+    border-bottom: 1px solid #bfbfbf;
+    padding: 16px;
+    width: 100%;
+    font-size: 18px;
+    transition: 0.3s all; }
+  .onas-form .input input::-webkit-input-placeholder {
+    color: #bcbcbc; }
+  .onas-form .input input:-ms-input-placeholder {
+    color: #bcbcbc; }
+  .onas-form .input input::-ms-input-placeholder {
+    color: #bcbcbc; }
+  .onas-form .input input::placeholder {
+    color: #bcbcbc; }
+  .onas-form .input input:focus {
+    border-bottom: 1px solid #000; }
+  .onas-form .input {
+    margin-bottom: 25px; }
+  .onas-form .textarea textarea {
+    width: 100%;
+    resize: none;
+    height: 169px;
+    background-color: #fff;
+    border: 1px solid #bfbfbf;
+    padding: 16px;
+    font-size: 18px; }
+  .onas-form .textarea textarea:focus {
+    border: 1px solid #000; }
+  .onas-form .textarea textarea::-webkit-input-placeholder {
+    color: #bcbcbc;
+    font-family: 'Pragmaticac'; }
+  .onas-form .textarea textarea:-ms-input-placeholder {
+    color: #bcbcbc;
+    font-family: 'Pragmaticac'; }
+  .onas-form .textarea textarea::-ms-input-placeholder {
+    color: #bcbcbc;
+    font-family: 'Pragmaticac'; }
+  .onas-form .textarea textarea::placeholder {
+    color: #bcbcbc;
+    font-family: 'Pragmaticac'; }
+  .onas-form .textarea {
+    margin-top: 80px;
+    margin-bottom: 80px; }
+  .onas-form button {
+    width: 243px;
+    height: 72px;
+    background-color: #6a1d6f;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 10px;
+    transition: 0.3s all;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none; }
+  .onas-form button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px black; }
+  .onas-form .g-recaptcha {
+    margin-bottom: 80px; }
+
+@media (max-width: 639px) {
+  .onas-form .title2 {
+    max-width: 270px; }
+  .onas-form {
+    padding-bottom: 55px;
+    padding-top: 55px; }
+    .onas-form form {
+      padding-top: 40px; }
+    .onas-form .input input {
+      font-size: 12px; }
+    .onas-form .textarea {
+      margin-top: 60px;
+      margin-bottom: 60px; }
+    .onas-form .textarea textarea {
+      font-size: 12px; }
+    .onas-form .g-recaptcha {
+      margin-bottom: 60px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+          justify-content: center; }
+    .onas-form button {
+      margin: 0 auto;
+      display: block;
+      width: 179px;
+      height: 50px;
+      font-size: 13px; } }
+
+@media only screen and (max-width: 340px) {
+  .onas-form .g-recaptcha {
+    -ms-flex-pack: start;
+        justify-content: flex-start; }
+  .onas-form .g-recaptcha > div {
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0; } }

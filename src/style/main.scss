@@ -1092,3 +1092,88 @@ body {
         margin-bottom: 40px;
     }
 }
+
+.title h1 {
+    font-family: 'Micra Bold';
+    font-size: 36px;
+    color: #6a1d6f;
+    line-height: 1.4;
+}
+
+.title {
+    padding-top: 125px;
+}
+
+.title h1:after {
+    content: "";
+    display: block;
+    width: 99px;
+    height: 6px;
+    background-color: #6a1d6f;
+    margin-top: 32px;
+}
+
+.title2 h2 {
+    font-size: 36px;
+    font-family: 'Micra Normal';
+    color: #6a1d6f;
+    line-height: 1.4;
+    span {
+        font-size: 20px;
+    }
+}
+
+.title2 h2:after {
+    content: "";
+    display: block;
+    width: 99px;
+    height: 6px;
+    background-color: #6a1d6f;
+    margin-top: 32px;
+}
+
+@media(max-width: 1024px) {
+    .title h1 {
+        font-size: 24px;
+    }
+    .title h1:after {
+        margin-top: 24px;
+        height: 3px;
+    }
+    .title {
+        padding-top: 100px
+    }
+    .title2 h2 {
+        font-size: 24px;
+        span {
+            font-size: 24px;
+        }
+    }
+    .title2 h2:after {
+        margin-top: 24px;
+        height: 3px;
+    }
+}
+
+@media(max-width: 639px) {
+    .title h1 {
+        font-size: 16px;
+    }
+    .title h1:after {
+        margin-top: 16px;
+    }
+    .title {
+        padding-top: 50px
+    }
+    .title2 h2 {
+        font-size: 16px;
+        span {
+            font-size: 16px;
+        }
+    }
+    .title2 h2:after {
+        margin-top: 16px;
+    }
+}
+
+@import './template/onas.scss';

@@ -2,6 +2,7 @@ $(function() {
     $('.burger').on('click', function() {
         $(this).toggleClass('active')
         $('.header__right').toggleClass('active')
+        $('.header').addClass('sroll')
     })
     $(document).mouseup(function(e) { // событие клика по веб-документу
         var div = $(".header"); // тут указываем ID элемента
@@ -20,4 +21,6 @@ $(function() {
             $('.header').removeClass('sroll')
         }
     });
+
+    var captcha = grecaptcha.getResponse();
 })
