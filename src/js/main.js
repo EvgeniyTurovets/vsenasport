@@ -22,5 +22,5 @@ $(function() {
         }
     });
 
-    var captcha = grecaptcha.getResponse();
+    let captcha = grecaptcha.getResponse();
 })
