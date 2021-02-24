@@ -70,6 +70,12 @@ body {
     margin: 0 auto;
 }
 
+@media(min-width: 2300px) {
+    .wrap {
+        width: 1800px;
+    }
+}
+
 .main__sec1 {
     padding-top: 100px;
 }
@@ -1104,6 +1110,12 @@ body {
     padding-top: 125px;
 }
 
+.title h1 span {
+    font-family: 'Micra Normal';
+    font-weight: 400;
+    display: inline-block;
+}
+
 .title h1:after {
     content: "";
     display: block;
@@ -1163,7 +1175,7 @@ body {
         margin-top: 16px;
     }
     .title {
-        padding-top: 50px
+        padding-top: 30px
     }
     .title2 h2 {
         font-size: 16px;
@@ -1178,3 +1190,4 @@ body {
 
 @import './template/onas.scss';
 @import './template/result.scss';
+@import './template/soob.scss';
