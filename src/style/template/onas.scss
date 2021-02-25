@@ -281,7 +281,7 @@
     }
     button:hover {
         cursor: pointer;
-        box-shadow: 0 0 5px rgba($color: #000000, $alpha: 1);
+        background-color: red;
     }
     .g-recaptcha {
         margin-bottom: 80px;

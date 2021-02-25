@@ -7,6 +7,10 @@ body {
     line-height: 1.1;
 }
 
+body.hidden {
+    overflow: hidden;
+}
+
 .app {
     overflow: hidden;
 }
@@ -1130,9 +1134,6 @@ body {
     font-family: 'Micra Normal';
     color: #6a1d6f;
     line-height: 1.4;
-    span {
-        font-size: 20px;
-    }
 }
 
 .title2 h2:after {
